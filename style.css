@@ -38,6 +38,32 @@ header li{
     padding: 0 20px 0 20px;
 }
 
+ul.submenu{
+    background-color: #eee;
+    border: 1px solid #ccc;
+    text-align: left;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    display: none;
+}
+
+ul.submenu li {
+    display: block;
+}
+ul.submenu li a {
+    display: block;
+    padding: 5px 10px;
+}
+header ul li {
+    display: inline-block;
+    position: relative;
+}
+header ul li a {
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
 header a{
     color: white;
     text-decoration: none;
@@ -115,8 +141,4 @@ ul{
      text-align: center;
      width: 100%;
      padding:20px;
- }
-
- #boxes .box img{
-     width: 70px;
  }
